@@ -5,4 +5,4 @@ COPY . .
 RUN npm install
 
 EXPOSE 3100
-
+CMD [ "node","app.js" ]
